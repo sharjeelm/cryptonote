@@ -125,6 +125,10 @@ __attribute__((unused))
 const std::initializer_list<CheckpointData> CHECKPOINTS = {
   //{ 10000, "84b6345731e2702cdaadc6ce5e5238c4ca5ecf48e3447136b2ed829b8a95f3ad" },
 };
+  const std::initializer_list<const char*> SEED_NODES = {
+  "192.168.0.111:27010",
+  "192.168.0.111:27011",
+};
 } // CryptoNote
 
 #define ALLOW_DEBUG_COMMANDS
